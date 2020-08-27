@@ -1,0 +1,25 @@
+.logo{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.logo-img{
+   height: 8vh;
+   width: 8vh;
+   position: relative;
+   left: 1vh;
+   top: 1vh;
+
+}
+.logo-title{
+    font-size: 4.5vh;
+    box-sizing: border-box;
+    font-weight: 400;
+    position: relative;
+    left: 2vw;
+    top: 0vh;
+    color:  rgb(14, 114, 64);
+    text-shadow: 1px  1px 1px black;
+    /* color:  rgb(96, 182 ,105);
+    text-shadow: 1px  1px  1px rgb(89, 250, 89); */
+}
