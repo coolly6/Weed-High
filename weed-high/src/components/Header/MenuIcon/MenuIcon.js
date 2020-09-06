@@ -1,15 +1,21 @@
-import React from 'react';
-import {HiOutlineMenu,HiOutlineSearch} from 'react-icons/hi'
+import React,{Component} from 'react';
+import {HiOutlineSearch} from 'react-icons/hi'
 import './menuIcon.css';
+import  { MenuContext } from '../../../context/MenuContext';
 
-function MenuIcon() {
+ class MenuIcon extends Component {
+  static contextType= MenuContext;
+ 
+  render() {
+    const {toggleMenu, iconMenu}=this.context
+
   return (
-    <div className="menuIcon">
-      <HiOutlineSearch/>
-        <HiOutlineMenu/>
-        
-    </div>
-  );
+    <header  className='menuIcon'>
+         <HiOutlineSearch/>
+         <span onClick={toggleMenu}  >{iconMenu}</span>
+    </header>
+  )
+}
 }
 
 export default MenuIcon;

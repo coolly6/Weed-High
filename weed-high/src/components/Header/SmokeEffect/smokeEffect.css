@@ -1,0 +1,40 @@
+.smokeEffect{
+    content: '';
+    height: 1vh;
+    width: 1vh;
+    position: absolute;
+    top: 5vh;
+    left: -15vw;
+    border-radius: 50%;
+    z-index: 1;
+    animation: all  5s ease-in ;
+    animation-name: smoke;
+    box-sizing: border-box;
+}
+
+@keyframes smoke {
+    0%   {
+        left:0;
+        box-shadow: 3vw 3vw  3vw 3vw rgb(223, 221, 221);
+    }
+    25%  {
+         left:25vw;
+          top:2vh;
+          box-shadow: 5vw 5vw  5vw 5vw rgb(223, 221, 221);
+        }
+    50%  {
+         left:50vw;
+          top:7vh;
+          box-shadow: 3vw 3vw  3vw 3vw rgb(223, 221, 221);
+        }
+    75%  {
+         left:75vw; 
+         top:2vh;
+         box-shadow: 3vw 3vw  3vw 3vw rgb(223, 221, 221);
+        }
+    100% {
+        left:100vw;
+          top:5vh;
+          box-shadow: 3vw 3vw  3vw 3vw rgb(223, 221, 221);
+        }
+  }
