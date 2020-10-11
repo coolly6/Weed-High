@@ -12,10 +12,12 @@ function App() {
     <div className="App">
       <MenuContextProvider>
         <Router> 
+        <Switch>
           <Header />
+          </Switch>
+
             <Navbar />
           <Switch>
-           
             <Route exact={true} path='/'><Home /></Route>
             <Route exact={true} path='/login'><Login /></Route>
             {/* <Route exact={true} path='/products' ><Products /></Route>
