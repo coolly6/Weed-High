@@ -1,10 +1,9 @@
 .header{
-    background: linear-gradient(to bottom, rgb(7, 247, 3) , rgb(135, 241, 134), rgb(201, 248, 182) );
-    /* background: linear-gradient(to top, rgb(73, 99, 68), rgb(2, 2, 2)  ); */
     position: sticky;
     top: 0;
     height: 10vh;
     display: flex;
     box-sizing: border-box;
+    
     
 }
