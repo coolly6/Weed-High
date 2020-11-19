@@ -1,0 +1,59 @@
+.form-container{
+    width: 90%;
+    min-height: 70vh;
+    max-width: 400px;
+    margin: 5vh auto ;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form-container h1{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 3vh;
+    box-sizing: border-box;
+    position: relative;
+    padding: 2vh 2vw;
+
+}
+.form-container input{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    border: none;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+}
+.form-container label{
+    padding: 2vh 3vw;
+    position: relative;
+    margin: 2vh auto;
+}
+.form-container .btn{
+    width: 70%;
+    cursor: pointer;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    padding: 2vh 0;
+    outline: none;
+    font-weight: 700;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+.form-error{
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.other-option{
+    text-align: center;
+}
+.form-link{
+    padding: 2vh;
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
